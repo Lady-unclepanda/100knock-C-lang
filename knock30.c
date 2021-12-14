@@ -7,10 +7,11 @@ int main(void)
     int x,i;
     printf("input number:");
     scanf("%d",&x);
-    for(i=0;i<=x;i++){
-        printf("*");
-        if (i==x) {
-            printf("\n");
+    for(i=1;i<=x;i++){
+        if (i == x) {
+            printf("*\n");
+        }else {
+            printf("*");
         }
     }
     return 0;
