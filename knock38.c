@@ -10,15 +10,14 @@ int main(void)
     */
     int x,y,i;
     int array[10] = {3, 7, 0, 8, 4, 1, 9, 6, 5, 2};
-    printf("input index:");
-    for (i=0;i<=10;i++){
+    for (i=0;i<10;i++){
         if (i == 0) {
-            x = array[0];
-            printf("value = %d\n",array[x]);
-        } else {
-            y = array[x];
-            printf("value = %d\n",array[y]);
+            printf("value = %d\n",array[0]);
         }
+        else {
+            y = array[y];
+            printf("value = %d\n",array[y]);
+        }     
     }
     return 0;
 }
